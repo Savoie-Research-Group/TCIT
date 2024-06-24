@@ -1,0 +1,21 @@
+# Script and executable locations
+input_type    smiles                                    # two input types, one is 'smiles' and the other one is 'xyz' files (default: xyz)
+
+target_path   input/test_xyz
+							# Absolute path to xyz file of model compound
+
+target_file   input/test_inp_public.txt
+							# Absolute path to xyz file of model compound
+
+database      /scratch/bell/tpasut/TCIT_public/Public_Database/TCIT_CAV.db      # Absolute path to database
+
+G4_db	      /scratch/bell/tpasut/TCIT_public/Public_Database/G4_thermo.db     # G4 result database
+
+TCIT_db	      /scratch/bell/tpasut/TCIT_public/Public_Database/TCIT_result.json # TCIT result data
+
+ring_db       /scratch/bell/tpasut/TCIT_public/Public_Database/depth0_RC.db 
+                                                        # Absolute path to ring correction database
+
+xyz_task      xyz_task
+							# folder to run G4 jobs, MKAE SURE xyz_task folder is empty
+
