@@ -1,0 +1,7 @@
+# Database file for thermochemistry data calculated by Gaussian G4 method
+# formatting notes:
+#     Enthalpy of formation unit:      kcal/mol
+#     Free energy of formation unit:   kcal/mol 
+#     Heat capacity and entropyunit:   cal/Mol-Kelvin
+
+#         Inchikey                     smiles                                      Hf_0k (G4)           Hf_298k (G4)            S0 (G4)          Gf_298k (G4)     C_v (B3LYP/GTBas3)
