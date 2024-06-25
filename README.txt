@@ -1,5 +1,5 @@
 TCIT-Hf
-TCIT, the short of Taffi component increment theory, is a powerful tool to predict thermochemistry properties, like enthalpy of formation.
+TAFFI Component Increment Theory, or TCIT, is a method for predicting powerful the thermochemistry properties of molecules that are component decomposable, suc like enthalpy of formation.
 
 This script implemented TCIT which performs on a given folder of target compounds based on a fixed TCIT CAV database distributed with the paper "A Self-Consistent Component Increment Theory for Predicting Enthalpy of Formation" by Zhao and Savoie. Further ring correction is added distributed with the paper "Transferable Ring Corrections for Predicting Enthalpy of Formation of Cyclic Compounds" by Zhao, Iovanac and Savoie. The heat of vaporization calculation will use the NIST value if available, otherwise it will be computed by the SIMPOL1 model ("Vapor pressure prediction – simple group contribution method"). Similarly, the heat of sublimation comes from "Simple yet accurate prediction method for sublimation enthalpies of organic contaminants using their molecular structure"
 
